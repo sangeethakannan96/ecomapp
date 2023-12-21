@@ -27,6 +27,7 @@ namespace Infrastructure.Data
             }
 
             if(context.ChangeTracker.HasChanges()) await context.SaveChangesAsync();
+            
         }
     }
 }
